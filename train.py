@@ -1,7 +1,7 @@
 import sentencepiece as spm
 import sys
 
-if len(sys) != 3:
+if len(sys.argv) != 3:
 	print("Usage: %s <input corpus> <vocab size>" % sys.argv[0])
 	sys.exit()
 
