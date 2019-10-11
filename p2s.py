@@ -10,5 +10,5 @@ else:
 	sp.Load("m.model")
 
 for line in open(sys.argv[1]):
-	print (sp.DecodePieces(line.strip('\n').split()).decode())
+	print (sp.DecodePieces(line.strip('\n').split()))
 
